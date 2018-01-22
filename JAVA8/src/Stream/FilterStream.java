@@ -23,7 +23,7 @@ public class FilterStream {
 		
 		stream.forEach(s->System.out.println(s));
 		
-		System.out.println("------------------------------------------------");
+		System.out.println("-------------------------------------------------");
 		
 		boolean anymatch = teamlist.stream().anyMatch(s->s.getName().equals("satadru"));
 		

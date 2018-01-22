@@ -15,7 +15,7 @@ public class BasicStream {
 		
 		stream.forEach(n->System.out.println(n));
 		
-       System.out.println("-----------------------------------------------------------");
+       System.out.println("------------------------------------------------------------");
 		
 		Stream stream1 = Stream.of("A","B","C","D","E");
 		
